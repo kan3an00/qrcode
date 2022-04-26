@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | QR code component</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            body: '#D5E1EF',
+            headers: '#1f3251',
+            lightgrey: '#7b879d'
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-body">
+  <div class="h-screen flex justify-center items-center">
+    <div class="p-3.5 bg-white rounded-2xl flex flex-col gap-3 justify-center items-center w-72 pb-8">
+      <img class="rounded-lg " src="images/image-qr-code.png" alt="">
+      <h2 class="font-bold text-headers text-xl text-center mt-2">Improve your front-end skills by building projects
+      </h2>
+      <p class="text-sm text-center text-lightgrey px-2">Scan the QR code to visit Frontend Mentor and take your coding
+        skills to the next level</p>
+    </div>
+
+  </div>
+  <div class="attribution absolute bottom-2 w-full">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a target="_blank" href="https://twitter.com/moe_kanaan00">Moe Kanaan</a>.
+  </div>
+</body>
+
+</html>
